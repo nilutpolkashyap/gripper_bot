@@ -6,7 +6,20 @@
 
 Clone this Repository - ``` git clone https://github.com/nilutpolkashyap/gripper_bot.git ```
 
+## Fusion360 Model
 <div align="center">
-<img  alt="Thanks for visiting me" width="50%" src="https://raw.githubusercontent.com/nilutpolkashyap/gripper_bot/main/gripper_bot.png" />
+<img  alt="Fusion360 Model" width="70%" src="https://raw.githubusercontent.com/nilutpolkashyap/gripper_bot/main/images/gripper_bot_image.png" />
+<br />
+</div>
+
+## Final Rendered Fusion360 Model
+<div align="center">
+<img  alt="Final Rendered Fusion360 Model" width="70%" src="https://raw.githubusercontent.com/nilutpolkashyap/gripper_bot/main/images/gripper_bot.png" />
+<br />
+</div>
+
+## Gazebo Simulation
+<div align="center">
+<img  alt="Final Rendered Fusion360 Model" width="70%" src="https://raw.githubusercontent.com/nilutpolkashyap/gripper_bot/main/images/image1.JPG" />
 <br />
 </div>
