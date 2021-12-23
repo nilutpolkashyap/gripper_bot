@@ -1,5 +1,5 @@
 # gripper_bot
-# gripper_bot
+
 
 
 <img src="https://img.shields.io/github/license/nilutpolkashyap/gripper_bot?style=for-the-badge">&nbsp;<img src ="https://img.shields.io/github/languages/code-size/nilutpolkashyap/gripper_bot?style=for-the-badge">
@@ -33,6 +33,7 @@ To control **Arm** and **Gripper** of robot. <br/>
 </div>
 
 ## Output
+Output Video Link - *To be Updated*
 <div align="center">
 <img  alt="Gazabo Output" width="80%" src="https://raw.githubusercontent.com/nilutpolkashyap/gripper_bot/main/images/results1.JPG" />
 <br />
