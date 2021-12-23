@@ -5,6 +5,9 @@
 <img src="https://img.shields.io/github/license/nilutpolkashyap/gripper_bot?style=for-the-badge">&nbsp;<img src ="https://img.shields.io/github/languages/code-size/nilutpolkashyap/gripper_bot?style=for-the-badge">
 
 Clone this Repository - ``` git clone https://github.com/nilutpolkashyap/gripper_bot.git ```
+____________________________________________________________________________
+# **Details About Project**
+Drive Plugin Used - [Skid Steering Drive - Gazebo](http://gazebosim.org/tutorials?tut=ros_gzplugins#SkidSteeringDrive)
 
 ## Fusion360 Model
 <div align="center">
