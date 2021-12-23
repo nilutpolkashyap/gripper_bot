@@ -1,5 +1,6 @@
-# gripper_bot
-
+# GRIPPER BOT
+## ROS Based Skid-steer Drive robot Simulation with Gripper and GUI. 
+<br>
 
 
 <img src="https://img.shields.io/github/license/nilutpolkashyap/gripper_bot?style=for-the-badge">&nbsp;<img src ="https://img.shields.io/github/languages/code-size/nilutpolkashyap/gripper_bot?style=for-the-badge">
