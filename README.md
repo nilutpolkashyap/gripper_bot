@@ -7,15 +7,16 @@
 Clone this Repository - ``` git clone https://github.com/nilutpolkashyap/gripper_bot.git ```
 ____________________________________________________________________________
 # **Details About Project**
-Drive Plugin Used - [Skid Steering Drive - Gazebo](http://gazebosim.org/tutorials?tut=ros_gzplugins#SkidSteeringDrive)
 
 ## Software Used
 - Fusion360 -> For designing the 3D Model of the robot.
 - [fusion2urdf](https://github.com/syuntoku14/fusion2urdf) -> Fusion360 script to export urdf from fusion 360 directly. 
-- ROS (Robot Operating System) -> 
-- Gazebo ->
-- Rviz ->
-- [QT Designer]() -> 
+- ROS (Robot Operating System) 
+- Gazebo 
+- Rviz 
+- [QT Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html) 
+
+Robot Drive Plugin Used - [Skid Steering Drive - Gazebo](http://gazebosim.org/tutorials?tut=ros_gzplugins#SkidSteeringDrive)
 
 ## Fusion360 Model
 <div align="center">
