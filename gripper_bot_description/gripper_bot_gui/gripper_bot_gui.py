@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'gripper_bot_gui.ui'
@@ -14,54 +12,27 @@ class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(337, 319)
-
-        def grippervaluechange():
-            print("gripperSlider = "+ str(self.gripperSlider.value()))
-        # g = self.gslider.value()
-        # msg = g/1000.0
-        # pubslide1.publish(msg)
-
-        def armvaluechange():
-            print("armSlider = "+ str(self.armSlider.value()))
-        # a = self.aslider.value()
-        # msg2  = a/1000.0
-        # pubslide2.publish(msg2)
-
-
-
-
         self.armSlider = QtWidgets.QSlider(Form)
         self.armSlider.setGeometry(QtCore.QRect(50, 130, 241, 41))
-        self.armSlider.setMinimum(-17)
-        self.armSlider.setMaximum(157)
-        self.armSlider.setSliderPosition(0)
+        self.armSlider.setMaximum(180)
         self.armSlider.setSingleStep(1)
-
         self.armSlider.setOrientation(QtCore.Qt.Horizontal)
         self.armSlider.setObjectName("armSlider")
-
         self.gripperSlider = QtWidgets.QSlider(Form)
         self.gripperSlider.setGeometry(QtCore.QRect(50, 240, 241, 41))
-        self.gripperSlider.setMinimum(0)
-        self.gripperSlider.setMaximum(157)
-        self.gripperSlider.setSliderPosition(10)
-        self.gripperSlider.setSingleStep(1)
-
+        self.gripperSlider.setMaximum(110)
         self.gripperSlider.setOrientation(QtCore.Qt.Horizontal)
         self.gripperSlider.setObjectName("gripperSlider")
-
         self.label = QtWidgets.QLabel(Form)
         self.label.setGeometry(QtCore.QRect(124, 85, 91, 31))
         self.label.setStyleSheet("font: 75 12pt \"MS Shell Dlg 2\";\n"
 "background-color: rgb(0, 255, 255);")
         self.label.setObjectName("label")
-
         self.label_2 = QtWidgets.QLabel(Form)
         self.label_2.setGeometry(QtCore.QRect(110, 210, 121, 31))
         self.label_2.setStyleSheet("font: 75 12pt \"MS Shell Dlg 2\";\n"
 "background-color: rgb(0, 255, 255);")
         self.label_2.setObjectName("label_2")
-
         self.label_3 = QtWidgets.QLabel(Form)
         self.label_3.setGeometry(QtCore.QRect(20, 10, 291, 41))
         self.label_3.setStyleSheet("font: 75 16pt \"MS Shell Dlg 2\";\n"
@@ -70,9 +41,6 @@ class Ui_Form(object):
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
-
-        self.gripperSlider.valueChanged.connect(grippervaluechange)
-        self.armSlider.valueChanged.connect(armvaluechange)
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
