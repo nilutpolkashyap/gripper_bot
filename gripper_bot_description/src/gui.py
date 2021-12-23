@@ -9,6 +9,8 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+import rospy
+from std_msgs.msg import Float64
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -17,15 +19,15 @@ class Ui_Form(object):
 
         def grippervaluechange():
             print("gripperSlider = "+ str(self.gripperSlider.value()))
-        # g = self.gslider.value()
-        # msg = g/1000.0
-        # pubslide1.publish(msg)
+            g = self.gripperSlider.value()
+            msg = g/100.0
+            pubslide1.publish(msg)
 
         def armvaluechange():
             print("armSlider = "+ str(self.armSlider.value()))
-        # a = self.aslider.value()
-        # msg2  = a/1000.0
-        # pubslide2.publish(msg2)
+            a = self.armSlider.value()
+            msg2  = a/100.0
+            pubslide2.publish(msg2)
 
 
 
@@ -42,9 +44,9 @@ class Ui_Form(object):
 
         self.gripperSlider = QtWidgets.QSlider(Form)
         self.gripperSlider.setGeometry(QtCore.QRect(50, 240, 241, 41))
-        self.gripperSlider.setMinimum(0)
+        self.gripperSlider.setMinimum(1)
         self.gripperSlider.setMaximum(157)
-        self.gripperSlider.setSliderPosition(10)
+        self.gripperSlider.setSliderPosition(1)
         self.gripperSlider.setSingleStep(1)
 
         self.gripperSlider.setOrientation(QtCore.Qt.Horizontal)
@@ -84,6 +86,11 @@ class Ui_Form(object):
 
 if __name__ == "__main__":
     import sys
+
+    pubslide1 = rospy.Publisher('/gripper_bot/gripper_joint_position_controller/command',Float64,queue_size=1)
+    pubslide2 = rospy.Publisher('/gripper_bot/arm_joint_position_controller/command',Float64,queue_size=1)
+    rospy.init_node('myGUI', anonymous=True)
+
     app = QtWidgets.QApplication(sys.argv)
     Form = QtWidgets.QWidget()
     ui = Ui_Form()

@@ -20,7 +20,7 @@
     args=" 
     joint_state_controller 
     arm_joint_position_controller
-  gripper_joint_position_controller"  />
+    gripper_joint_position_controller"  />
 
 
 
