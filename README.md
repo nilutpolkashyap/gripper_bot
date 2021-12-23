@@ -9,6 +9,11 @@ ____________________________________________________________________________
 # **Details About Project**
 Drive Plugin Used - [Skid Steering Drive - Gazebo](http://gazebosim.org/tutorials?tut=ros_gzplugins#SkidSteeringDrive)
 
+## Software Used
+- Fusion360 -> For designing the 3D Model of the robot.
+- fusion2urdf -> Fusion360 script to export urdf from fusion 360 directly.
+
+
 ## Fusion360 Model
 <div align="center">
 <img  alt="Fusion360 Model" width="70%" src="https://raw.githubusercontent.com/nilutpolkashyap/gripper_bot/main/images/gripper_bot_image.png" />
