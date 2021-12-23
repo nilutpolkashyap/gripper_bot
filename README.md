@@ -12,6 +12,10 @@ Drive Plugin Used - [Skid Steering Drive - Gazebo](http://gazebosim.org/tutorial
 ## Software Used
 - Fusion360 -> For designing the 3D Model of the robot.
 - fusion2urdf -> Fusion360 script to export urdf from fusion 360 directly.
+- ROS (Robot Operating System) -> 
+- Gazebo ->
+- Rviz ->
+- QT Designer -> 
 
 
 ## Fusion360 Model
