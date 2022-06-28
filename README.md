@@ -7,6 +7,11 @@
 
 Clone this Repository - ``` git clone https://github.com/nilutpolkashyap/gripper_bot.git ```
 ____________________________________________________________________________
+<div align="center">
+<a href="https://github.com/nilutpolkashyap">
+  <img align="center" src="https://raw.githubusercontent.com/nilutpolkashyap/nilutpolkashyap/main/repo_about_me_card.png" alt="Nilutpol Kashyap" width="80%"/>
+</a>
+</div>
 # **Details About Project**
 
 ## Software Used
