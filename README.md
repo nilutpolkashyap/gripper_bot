@@ -67,7 +67,7 @@ cd ~/catkin_ws/src/gripper_bot/gripper_bot_description/src
 python3 gui.py
 ```
 <div align="center">
-<img  alt="gui" src="images/gui.JPG" /></div><br />
+<img  alt="gui" src="images/gui.JPG" /></div>
 
 ## Output
 <div align="center">
