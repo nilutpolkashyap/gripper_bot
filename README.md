@@ -24,26 +24,6 @@ Robot Drive Plugin Used - [Skid Steering Drive - Gazebo](http://gazebosim.org/tu
 <br />
 </div>
 
-<!-- ## Final Rendered Fusion360 Model
-<div align="center">
-<img  alt="Final Rendered Fusion360 Model" width="70%" src="https://raw.githubusercontent.com/nilutpolkashyap/gripper_bot/main/images/gripper_bot.png" />
-<br />
-</div>
-
-## Gazebo Simulation
-<div align="center">
-<img  alt="Gazebo Simulation" width="70%" src="https://raw.githubusercontent.com/nilutpolkashyap/gripper_bot/main/images/image1.JPG" />
-<br />
-</div> -->
-
-<!-- ## GUI 
-To control **Arm** and **Gripper** of robot. <br/>
-**GUI** Designed using **QT Designer** software.
-<div align="center">
-<img  alt="GUI" width="50%" src="https://raw.githubusercontent.com/nilutpolkashyap/gripper_bot/main/images/robot_gui.JPG" />
-<br />
-</div> -->
-
 ## Clone this repository inside your ROS Workspace:
 ```
 cd ~/catkin_ws/src/
