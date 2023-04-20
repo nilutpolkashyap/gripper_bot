@@ -14,7 +14,7 @@ ___________________________________________________________________________
 - ROS (Robot Operating System) 
 - Gazebo 
 - Rviz 
-- [QT Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html) -> For GUI
+- PyQt5 -> For GUI
 
 Robot Drive Plugin Used - [Skid Steering Drive - Gazebo](http://gazebosim.org/tutorials?tut=ros_gzplugins#SkidSteeringDrive)
 
